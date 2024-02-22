@@ -1,3 +1,9 @@
 # Advanced-Programming-e-Mobile-Dev
 
-Tarefas
+## Tarefas
+
+- [ ] Header
+- [ ] Apresentação
+- [ ] Projetos
+- [ ] Conhecimentos
+- [ ] Orçamento 
