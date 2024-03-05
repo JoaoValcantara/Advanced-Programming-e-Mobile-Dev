@@ -4,13 +4,11 @@ header::before{
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     background-image: url("../images/background.png");
     background-size: cover;
-    background-position: center;
-    
     height: 100vh;
-    width: 100vw;
+    width: 50vw;
     display: block;
     z-index: -10;
 }
@@ -19,13 +17,13 @@ h1{
     font-family: 'Montserrat Subrayada', sans-serif;
     font-weight: 800;
     font-size: 60px;
-    color: #A2ABA9;
+    color: #040404;
 }
 
 h2{
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-weight: 500;
-    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
     color: #040404;
 }
 
@@ -33,5 +31,5 @@ p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     font-size: 20px;
-    color: #e67330;
+    color: #3721c5;
 }
