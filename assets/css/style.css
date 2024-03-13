@@ -1,36 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Racing+Sans+One&display=swap');
 
+header {
+    height: 110vh;
+}
+
 header::before{
     content: "";
     position: absolute;
-    top: 0;
+    top: 70px;
     right: 0;
+    background-color: aliceblue;
     background-image: url("../images/background.png");
     background-size: cover;
+    background-position: center;
     height: 100vh;
-    width: 50vw;
+    width: 100vw;
     display: block;
     z-index: -10;
 }
 
 h1{
     font-family: 'Racing Sans One', sans-serif;
+    margin-top:0%;
     font-weight: 500;
-    font-size: 80px;
-    color: #040404;
+    font-size: 40px;
+    color: #000000;
 }
 
-h2{
+header h2{
     font-family: 'Racing Sans One', sans-serif;
+    text-align: right;
+    margin-right: 20px;
     font-weight: 500;
-    font-size: 29px;
-    color: #040404;
+    font-size: 30px;
+    color: #000000;
 }
 
-p{
+#secao-apresentacao p{
     font-family: 'Racing Sans One', sans-serif;
+    margin-left: 20px;
     font-weight: 500;
-    font-size: 23px;
-    color: #3721c5;
+    font-size: 30px;
+    color: #000000;
+}
+
+#secao-apresentacao{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+    height: 150vh;
+}
+
+#secao-apresentacao img{
+    border-radius: 100%;
+    size: 0cap;
 }
