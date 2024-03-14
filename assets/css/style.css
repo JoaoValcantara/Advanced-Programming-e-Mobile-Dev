@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Racing+Sans+One&display=swap');
 
+#borda-superior{
+    display: flex;
+    align-content: flex-start;
+}
+
+#borda-superior img{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+#borda-superior h1{
+    font-family: 'Racing Sans One', sans-serif;
+    margin-top:0%;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+}
+
+
 header {
     height: 110vh;
 }
@@ -20,21 +42,11 @@ header::before{
     z-index: -10;
 }
 
-h1{
-    font-family: 'Racing Sans One', sans-serif;
-    margin-top:0%;
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-}
-
-header h2{
-    font-family: 'Racing Sans One', sans-serif;
-    text-align: right;
-    margin-right: 20px;
-    font-weight: 500;
-    font-size: 30px;
-    color: #000000;
+#secao-apresentacao{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
 }
 
 #secao-apresentacao p{
@@ -45,15 +57,10 @@ header h2{
     color: #000000;
 }
 
-#secao-apresentacao{
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    gap: 5rem;
-    height: 150vh;
-}
-
 #secao-apresentacao img{
-    border-radius: 100%;
-    size: 0cap;
+    border-radius: 20%;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
 }
