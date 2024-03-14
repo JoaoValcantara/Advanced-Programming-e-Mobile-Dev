@@ -8,15 +8,17 @@
         align-content: flex-start;
     }
     #borda-superior img{
-        max-width:50px;
-        max-height:50px;
+        max-width:45px;
+        max-height:45px;
         width: auto;
         height: auto;
+        margin-top:0.7%;
+        margin-left: 3px;
     }
     #borda-superior h1{
         font-family: 'Racing Sans One', sans-serif;
-        margin-top:0%;
-        margin-left: 10px;
+        margin-top:0.7%;
+        margin-left: 13px;
         font-weight: 500;
         font-size: 40px;
         color: #000000;
@@ -26,14 +28,14 @@
     .container {
         position: absolute;
         top: 15px;
-        right: 200px;
+        right: 0px;
     }
     .botao {
-        background-color: white;
+        background-color: #ffffff;
         color: black;
         font-family: 'Rasa', sans-serif;
         font-size: 25px;
-        font-weight: 500;
+        font-weight: 600;
         padding: 10px 20px;
         margin-right: 20px;
         border: none;
@@ -41,19 +43,19 @@
         cursor: pointer;
     }
     .botao:hover {
-        background-color: #f0f0f0;
+        background-color: #c1c5c4;
     }
 
 /* CONTEÚDOS PRINCIPAIS */
     header {
-        height: 110vh;
+        height: 95vh;
     }
     header::before{
         content: "";
         position: absolute;
         top: 70px;
         right: 0;
-        background-color: #f0f0f0;
+        background-color: #ffffff;
         background-image: url("../images/background.png");
         background-size: cover;
         background-position: center;
@@ -116,7 +118,8 @@
       }
 
       .youtube:hover{
-            background-color: #7E8382;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transform: scale(1.1);
       }
       
       .instagram {
@@ -124,7 +127,8 @@
       }
 
       .instagram:hover{
-        background-color: #7E8382;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transform: scale(1.1);
       }
       
       .whatsapp {
@@ -132,5 +136,6 @@
       }
 
       .whatsapp:hover{
-        background-color: #7E8382;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transform: scale(1.1);
       }
