@@ -100,6 +100,52 @@
         height: auto;
     }
 
+/* OFERTAS */
+
+    #secao-ofertas{
+      height: 25vh;
+      padding: 1rem;
+      background-color: #c1c5c475;
+    }
+
+    #secao-ofertas form{
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    #secao-ofertas h2 {
+      font-family: 'Racing Sans One', sans-serif;
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+    }
+
+    #secao-ofertas label {
+      font-family: 'Racing Sans One', sans-serif;
+      text-align: center;
+      font-weight: 500;
+      font-size: 23px;
+    }
+
+    .campo {
+      display: flex;
+      flex-direction: column;
+      margin-top: 7%;
+    }
+
+    input[type=text],
+    select
+    {
+      background-color: #272537;
+      color: white;
+      border-radius: .25rem;
+      border: 0;
+      padding: .5rem;
+    }
+
 /* FOOTER */
 
     .footer {
